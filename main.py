@@ -5,7 +5,7 @@ inventaris_db = db.getDb("./semester 3/LabManagement/database/inventaris_lab.jso
 penggunaan_db = db.getDb("./semester 3/LabManagement/database/penggunaan_lab.json")
 pengguna_db = db.getDb("./semester 3/LabManagement/database/pengguna_lab.json")
 
-# Kelas Inventaris
+# Inventaris
 class Inventaris:
     def __init__(self, nama, kategori, jumlah, kondisi):
         self.nama = nama
